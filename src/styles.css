@@ -5,9 +5,9 @@ h1 {
    color: #ffff;
 }
 h2 {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
-  padding: 20px 10px;
+  padding: 5px 10px;
   font-family: "Hind Siliguri", sans-serif;
    color: #ffff;
 }
@@ -57,7 +57,7 @@ p {
   margin: 30px auto;
   max-width: 700px;
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-border-radius: 20px;
+ border-radius: 20px;
 }
 .weather-icon {
   height: 100px;
@@ -66,13 +66,15 @@ border-radius: 20px;
   
 }
 .temperature {
+  text-align: center;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
    color: #ffff;
 }
 .search-form {
-  margin-left: 30px;
+  margin-left: 8px;
+  border-radius: 30px;
 }
 .units{
    color: #ffff;
