@@ -32,11 +32,12 @@ h5 {
   font-family: "Hind Siliguri", sans-serif;
 }
 button {
-  display:inline;
+  display: right;
   top: 2px;
   right: 100%;
   margin: 10px auto;
   padding: 10px 15px;
+  
 }
 button:hover {
   cursor: pointer;
@@ -71,3 +72,8 @@ border-radius: 10px;
   line-height: 1;
    color: #ffff;
 }
+.search-form {
+  margin-left: 30px;
+}
+
+
