@@ -3,8 +3,9 @@
 h1 {
   text-align: center;
   margin: 20px 30px;
+  padding: 20px 40px;
   font-family: "Hind Siliguri", sans-serif;
-  font-size: 10 px;
+  font-size: 20 px;
    color:  #f9f9fa;
 }
 h2 {
@@ -65,8 +66,18 @@ border-radius: 10px;
   font-weight: 400;
   line-height: 1;
   color: white;
+  margin-top: 10px;
 }
 .units{
   color: white;
-
+}
+.ul{
+  list-style-type: none;
+   margin: 0;
+  padding: 0;
+}
+.li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
