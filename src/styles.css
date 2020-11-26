@@ -1,83 +1,68 @@
-
-
-h1 {
-  text-align: center;
-  margin: 20px 30px;
-  padding: 20px 40px;
-  font-family: "Hind Siliguri", sans-serif;
-  font-size: 20 px;
-   color:  #f9f9fa;
-}
-h2 {
-  margin: 5px 10px;
-  text-align: center;
-   color:  #f9f9fa;
-  font-size: 20px;
-  padding: 50px 10px;
+body {
   font-family: "Hind Siliguri", sans-serif;
 }
-h3 {
-  font-size: 50px;
-  margin: 0;
-  color:  #f9f9fa;
-  text-align: center;
-  padding: 5px 10px;
-  font-family: "Hind Siliguri", sans-serif;
-}
-h4 {
-  color:  #f9f9fa;
-  font-family: "Hind Siliguri", sans-serif;
-  font-size: 20px;
-}
-h5 {
-   font-size: 20px;
-  margin: 0 auto;
-  padding: 20px 30px;
-  color:  white;
-  font-family: "Hind Siliguri", sans-serif;
+.overwiew {
+  margin-bottom:20px;
 }
 
-p {
-  font-family: "Hind Siliguri", sans-serif;
-  font-size: 10 px;
-}
-.fa-cloud-sun {
-  margin: 20px auto;
-  font-size: 200px;
-  color: #646464;
-
-}
 .weather-app {
-  border: 2px solid #646464;
-  padding: 20px 40px;
-  margin: 20px 40px;
+  border: 1px solid grey;
+  margin: 30px auto;
+  padding: 20px;
   max-width: 600px;
+  border-radius: 15px;
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-border-radius: 10px;
 }
-.weather-icon {
-  height: 100px;
-  width: 100px;
-  margin: 30 auto;
+.weather-temperature img {
+  margin-right: 5px;
+  height: 74px;
+  width: 74px;
+}
+.weather-temperature strong {
+   color: #f9f9fa;
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 400;
+  text-shadow: 3px 5px #707070; 
+
+}
+.weather-temperature .units {
+  position:relative;
+   color: #f9f9fa;
+  font-size: 16px;
+  top: -34px;
+}
+.weather-temperature .active {
+     color: #f9f9fa;
+     text-shadow: 2px 3px #707070; 
+     cursor: default;
   
 }
-.temperature {
-  font-size: 64px;
-  font-weight: 400;
-  line-height: 1;
-  color: white;
-  margin-top: 10px;
+.weather-temperature .active:hover {
+   text-decoration: none;
 }
-.units{
-  color: white;
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 20px 30px;
+  padding: 10px 15px;
+  color: #f9f9fa;
+  text-shadow: 2px 3px #707070; 
 }
-.ul{
-  list-style-type: none;
-   margin: 0;
-  padding: 0;
-}
-.li{
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ 
+  color: #f9f9fa;
+}
+li:first-letter {
+ text-transform: capitalize;
+}
+
+
